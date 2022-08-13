@@ -7,7 +7,7 @@ const DashboardAdminPage = () => {
             <div className="main-content">
                 <div className="content">
                     <div className="content-header">
-                        <h3>Dashboard</h3>
+                        <h2>Dashboard</h2>
                     </div>
                 </div>
             </div>
