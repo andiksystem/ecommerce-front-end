@@ -53,3 +53,25 @@ html {
   width: 160px;
   position: relative;
 }
+
+.login-panel {
+  width: 260px;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 16px;
+  text-align: center;
+  margin: 32px auto;
+}
+
+.content {
+  margin-left: 160px;
+  padding-top: 64px;
+}
+
+.content-inner {
+  margin: 16px;
+}
+
+.content-header {
+  margin-bottom: 16px;
+}
