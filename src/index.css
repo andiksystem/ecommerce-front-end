@@ -62,3 +62,16 @@ html {
   text-align: center;
   margin: 32px auto;
 }
+
+.content {
+  margin-left: 160px;
+  padding-top: 64px;
+}
+
+.content-inner {
+  margin: 16px;
+}
+
+.content-header {
+  margin-bottom: 16px;
+}
