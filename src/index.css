@@ -75,3 +75,39 @@ html {
 .content-header {
   margin-bottom: 16px;
 }
+
+.content-form {
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.form-label {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.my-progress-bar {
+  z-index: 10000;
+  height: 4px!important;
+}
+
+.cell-link {
+  text-decoration: none;
+  color: #2478dd;
+  font-weight: 600;
+}
+
+.cell-link:hover {
+  text-decoration: underline;
+}
+
+.detail-label {
+  width: 160px;
+}
+
+.content-detail {
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 4px;
+}
