@@ -75,3 +75,73 @@ html {
 .content-header {
   margin-bottom: 16px;
 }
+
+.content-form {
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.form-label {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.my-progress-bar {
+  z-index: 10000;
+  height: 4px!important;
+}
+
+.cell-link {
+  text-decoration: none;
+  color: #2478dd;
+  font-weight: 600;
+}
+
+.cell-link:hover {
+  text-decoration: underline;
+}
+
+.detail-label {
+  width: 160px;
+}
+
+.content-detail {
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.image-display-wrapper {
+  width: 256px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.image-display {
+  max-width: 100%;
+}
+
+.icon-display.pi {
+  font-size: 128px;
+  display: inline-block;
+  color: #2478dd;
+}
+
+.error-page {
+  width: 600px;
+  padding: 32px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 32px auto;
+}
+
+.error-page h1 {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.error-page h3 {
+  font-weight: normal;
+}
