@@ -3,6 +3,7 @@ import { useAuth } from "../auth/useAuth";
 import { InputText } from "primereact/inputtext";
 import { Password } from "primereact/password";
 import { Button } from "primereact/button";
+import { Link } from "react-router-dom";
 
 const SigninPage = () => {
 
@@ -42,7 +43,8 @@ const SigninPage = () => {
                 </div>
 
                 <div>
-                    <Button type="submit" disabled={!isValidForm()}>Sign In</Button>
+                    <Button type="submit" disabled={!isValidForm()}>Sign In</Button><br/>
+                    <Link to="/signup">Sign Up</Link>
                 </div>
             </form>
         </div>
