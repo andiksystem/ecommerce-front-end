@@ -35,6 +35,20 @@ html {
   margin-left: 16px;
 }
 
+.header .user-info {
+  margin-right: 16px;
+  margin-left: 16px;
+  height: 64px;
+}
+
+.header .user-info a.profile {
+  line-height: 64px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .sidebar {
   position: fixed;
   left: 0;
@@ -144,4 +158,13 @@ html {
 
 .error-page h3 {
   font-weight: normal;
+}
+
+.content-form label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.content-form .p-field {
+  margin-bottom: 16px;
 }

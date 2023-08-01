@@ -10,8 +10,9 @@ import ProdukAdminListPage from './pages/admin/ProdukAdminListPage';
 import HomePage from './pages/HomePage';
 import SigninPage from './pages/SigninPage';
 import SignupPage from './pages/SignupPage';
-import DashboardUserPage from './pages/admin/DashboardUserPage';
+import DashboardUserPage from './pages/user/DashboardUserPage';
 import Forbidden from './components/Forbidden';
+import ProfileUserPage from './pages/user/ProfileUserPage';
 
 const App = () => {
   return (
@@ -25,6 +26,11 @@ const App = () => {
         <Route path="/user/dashboard" element={
           <ProtectedRoute userRole="user">
             <DashboardUserPage />
+          </ProtectedRoute>
+        } />
+        <Route path="/user/profile" element={
+          <ProtectedRoute userRole="user">
+            <ProfileUserPage />
           </ProtectedRoute>
         } />
 
